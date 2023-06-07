@@ -1,0 +1,89 @@
+body{
+    background-image: url('22319.jpg');
+}
+
+h3{
+    text-align:center;
+}
+.board{
+    width:812px;
+    height:814px;
+    border:2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+} 
+
+.board div{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background-color: white;
+}
+
+.turn{
+    color:white;
+}
+
+#b8, #d8, #f8, #h8, #a7, #c7, #e7, #g7, #b6, #d6, #f6, #h6, #a5, #c5, #e5, #g5, #b4, #d4, #f4, #h4, #a3, #c3, #e3, #g3, #b2, #d2, #f2, #h2, #a1, #c1, #e1, #g1{
+    background-color: brown;
+}
+
+.brook{
+    background-image: url('brook.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.bbishop{
+    background-image: url('bbishop.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.bking{
+    background-image: url('bking.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.bknight{
+    background-image: url('bknight.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.bpawn{
+    background-image: url('bpawn.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.bqueen{
+    background-image: url('bqueen.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wrook{
+    background-image: url('wrook.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wbishop{
+    background-image: url('wbishop.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wking{
+    background-image: url('wking.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wknight{
+    background-image: url('wknight.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wpawn{
+    background-image: url('wpawn.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+.wqueen{
+    background-image: url('wqueen.svg');background-repeat: no-repeat;
+    background-size:100px 100px;
+}
+
+.current{
+    background-color: blueviolet !important;
+}
+
+
+
+ 
